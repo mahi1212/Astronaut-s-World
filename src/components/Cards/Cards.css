@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+.card-inner{
+    padding: 1rem;
+    background-color: #30336b;
+    color: #fff;
+    border-radius: 10px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.info-div{
+    text-align: start;
+    padding: 0.5 1rem;
+    width: 100%;
+    margin-left: 1rem;
+}
