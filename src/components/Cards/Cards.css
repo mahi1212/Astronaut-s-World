@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 1rem 2rem;
 }
+/* Card style starts here */
 .card-inner{
     padding: 1rem;
     background-color: #30336b;
@@ -20,5 +21,28 @@
     text-align: start;
     padding: 0.5 1rem;
     width: 100%;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+}
+/* Button style */
+.add-btn{
+    background-color: #7f8fa6;
+    color: #fff;
+    width: 90%;
+    padding: 5px ;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.add-btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+.add-btn i{
+    visibility: hidden;
+    color: green;
+    margin-right: 5px;
+}
+.add-btn:hover i{
+    visibility: visible;
 }
